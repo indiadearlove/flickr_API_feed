@@ -1,0 +1,110 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'mustache' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 warn package.json flickr_API_feed@1.0.0 No description
+5 warn package.json flickr_API_feed@1.0.0 No repository field.
+6 warn package.json flickr_API_feed@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'mustache', null ]
+9 verbose cache add name=undefined spec="mustache" args=["mustache",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'mustache',
+10 verbose parsed url   path: 'mustache',
+10 verbose parsed url   href: 'mustache' }
+11 silly lockFile e372423e-mustache mustache
+12 verbose lock mustache /Users/indiadearlove/.npm/e372423e-mustache.lock
+13 silly lockFile e372423e-mustache mustache
+14 silly lockFile e372423e-mustache mustache
+15 verbose addNamed [ 'mustache', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile 58264633-mustache mustache@
+18 verbose lock mustache@ /Users/indiadearlove/.npm/58264633-mustache.lock
+19 silly addNameRange { name: 'mustache', range: '*', hasData: false }
+20 verbose request where is /mustache
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id c4934daf6895c15d
+23 verbose url raw /mustache
+24 verbose url resolving [ 'https://registry.npmjs.org/', './mustache' ]
+25 verbose url resolved https://registry.npmjs.org/mustache
+26 verbose request where is https://registry.npmjs.org/mustache
+27 info trying registry request attempt 1 at 12:44:08
+28 verbose etag "3MDVHN6O7UCJG8S409YLPLJ30"
+29 http GET https://registry.npmjs.org/mustache
+30 http 200 https://registry.npmjs.org/mustache
+31 silly registry.get cb [ 200,
+31 silly registry.get   { date: 'Wed, 18 Mar 2015 12:44:09 GMT',
+31 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+31 silly registry.get     etag: '"AT3R8CEB5ZRPN0F79R9MDYECS"',
+31 silly registry.get     'content-type': 'application/json',
+31 silly registry.get     'cache-control': 'max-age=60',
+31 silly registry.get     'content-length': '29391',
+31 silly registry.get     'accept-ranges': 'bytes',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     age: '0',
+31 silly registry.get     'x-served-by': 'cache-lcy1126-LCY',
+31 silly registry.get     'x-cache': 'HIT',
+31 silly registry.get     'x-cache-hits': '1',
+31 silly registry.get     'x-timer': 'S1426682649.395582,VS0,VE153',
+31 silly registry.get     vary: 'Accept',
+31 silly registry.get     'keep-alive': 'timeout=10, max=50',
+31 silly registry.get     connection: 'Keep-Alive' } ]
+32 silly addNameRange number 2 { name: 'mustache', range: '*', hasData: true }
+33 silly addNameRange versions [ 'mustache',
+33 silly addNameRange   [ '0.3.1-dev',
+33 silly addNameRange     '0.4.0',
+33 silly addNameRange     '0.5.1-dev',
+33 silly addNameRange     '0.5.2',
+33 silly addNameRange     '0.6.0',
+33 silly addNameRange     '0.7.0',
+33 silly addNameRange     '0.7.1',
+33 silly addNameRange     '0.7.2',
+33 silly addNameRange     '0.7.3',
+33 silly addNameRange     '0.8.0',
+33 silly addNameRange     '0.8.1',
+33 silly addNameRange     '0.8.2',
+33 silly addNameRange     '1.0.0',
+33 silly addNameRange     '1.1.0' ] ]
+34 verbose addNamed [ 'mustache', '1.1.0' ]
+35 verbose addNamed [ '1.1.0', '1.1.0' ]
+36 silly lockFile e7a86b53-mustache-1-1-0 mustache@1.1.0
+37 verbose lock mustache@1.1.0 /Users/indiadearlove/.npm/e7a86b53-mustache-1-1-0.lock
+38 silly lockFile 52eee44e--org-mustache-mustache-1-1-0-tgz https://registry.npmjs.org/mustache/-/mustache-1.1.0.tgz
+39 verbose lock https://registry.npmjs.org/mustache/-/mustache-1.1.0.tgz /Users/indiadearlove/.npm/52eee44e--org-mustache-mustache-1-1-0-tgz.lock
+40 verbose addRemoteTarball [ 'https://registry.npmjs.org/mustache/-/mustache-1.1.0.tgz',
+40 verbose addRemoteTarball   '0d9a554b4b3f9e248e6c2742c2579d618d2ff00f' ]
+41 info retry fetch attempt 1 at 12:44:10
+42 verbose fetch to= /var/folders/t1/yss8csnj2rnffjpcw2c2qlyr0000gn/T/npm-10040-O_Vlo3xb/registry.npmjs.org/mustache/-/mustache-1.1.0.tgz
+43 http GET https://registry.npmjs.org/mustache/-/mustache-1.1.0.tgz
+44 http 200 https://registry.npmjs.org/mustache/-/mustache-1.1.0.tgz
+45 silly lockFile 52eee44e--org-mustache-mustache-1-1-0-tgz https://registry.npmjs.org/mustache/-/mustache-1.1.0.tgz
+46 silly lockFile 52eee44e--org-mustache-mustache-1-1-0-tgz https://registry.npmjs.org/mustache/-/mustache-1.1.0.tgz
+47 silly lockFile e7a86b53-mustache-1-1-0 mustache@1.1.0
+48 silly lockFile e7a86b53-mustache-1-1-0 mustache@1.1.0
+49 silly lockFile 58264633-mustache mustache@
+50 silly lockFile 58264633-mustache mustache@
+51 error Error: EACCES, mkdir '/Users/indiadearlove/.npm/mustache/1.1.0'
+51 error  { [Error: EACCES, mkdir '/Users/indiadearlove/.npm/mustache/1.1.0']
+51 error   errno: 3,
+51 error   code: 'EACCES',
+51 error   path: '/Users/indiadearlove/.npm/mustache/1.1.0',
+51 error   parent: 'flickr_API_feed' }
+52 error Please try running this command again as root/Administrator.
+53 error System Darwin 13.4.0
+54 error command "node" "/usr/local/bin/npm" "install" "mustache"
+55 error cwd /Users/indiadearlove/Desktop/Projects/Tech Tests/flickr_API_feed
+56 error node -v v0.10.36
+57 error npm -v 1.4.28
+58 error path /Users/indiadearlove/.npm/mustache/1.1.0
+59 error code EACCES
+60 error errno 3
+61 error stack Error: EACCES, mkdir '/Users/indiadearlove/.npm/mustache/1.1.0'
+62 verbose exit [ 3, true ]
