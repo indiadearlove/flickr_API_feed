@@ -16,10 +16,22 @@
         <input type="text" >
         <button class="btn">Search</button>
       </form>
-      <ul class="list-group" ng-repeat="user in searchResult.items">
-        <li>
-          <img ng-src="{{user.media}}&s=50">
-          <a ng-href="{{user.link}}">{{user.title}}</a>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <img src="https://farm8.staticflickr.com/7654/16662146989_19190d907a_m.jpg">
+          <a href="https://api.flickr.com/services/feeds/photos_public.gne">Carrots versus Potatoes, Inna OU Stylee</a>
+          <br>
+          <a class="author_link" href="https://api.flickr.com/services/feeds/photos_public.gne">Post author</a>
+          6pm
+          <a class="flickr_link" href="https://api.flickr.com/services/feeds/photos_public.gne">View on Flickr</a>
+        </li>
+        <li class="list-group-item">
+          <img src="https://farm8.staticflickr.com/7648/16822086906_b45e968019_m.jpg">
+          <a href="https://api.flickr.com/services/feeds/photos_public.gne">Bacon and Mashed Potato Egg Rolls</a>
+          <br>
+          <a class="author_link" href="https://api.flickr.com/services/feeds/photos_public.gne">Post author</a>
+          6pm
+          <a class="flickr_link" href="https://api.flickr.com/services/feeds/photos_public.gne">View on Flickr</a>
         </li>
       </ul>
     </div>
